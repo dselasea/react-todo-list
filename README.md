@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 Todo List Application <a name="about-project"></a>
 
 **Todo List** is a Single Page Aplication that tracks your daily activities
 
