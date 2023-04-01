@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoItem = ({ itemProp }) => {
+const TodoItem = ({itemProp}) => {
   return (
     <li>{itemProp.title}</li>
   )

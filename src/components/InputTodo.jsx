@@ -2,7 +2,7 @@ import React from 'react'
 
 const InputTodo = () => {
   return (
-    <div>Input Field here...</div>
+    <div>Input field here...</div>
   )
 }
 

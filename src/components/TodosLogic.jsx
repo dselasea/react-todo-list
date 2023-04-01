@@ -1,5 +1,6 @@
-import InputTodo from "./InputTodo";
-import TodosList from "./TodosList";
+import React from 'react'
+import InputTodo from '@/components/InputTodo';
+import TodosList from '@/components/TodosList';
 
 const TodosLogic = () => {
   const todos = [
@@ -19,11 +20,13 @@ const TodosLogic = () => {
       completed: false,
     },
   ];
+
   return (
     <div>
       <InputTodo />
       <TodosList todosProps={todos} />
     </div>
-  );
-};
-export default TodosLogic;
+  )
+}
+
+export default TodosLogic

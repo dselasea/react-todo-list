@@ -2,10 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>
-      <h1>Todos</h1>
+    <div>
+      <h1>todos</h1>
       <p>Items will persist in the browser local storage</p>
-    </header>
+    </div>
   )
 }
 

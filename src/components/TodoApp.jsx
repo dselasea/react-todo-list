@@ -1,15 +1,20 @@
-import React from 'react'
-import Navbar from '../Navbar'
-import Header from './Header'
-import TodosLogic from './TodosLogic'
+import React, { useState } from 'react'
+import Header from '@/components/Header'
+import TodosLogic from '@/components/TodosLogic'
+import Navbar from '@/components/Navbar'
+import Modal from '@/components/Modal'
 
 const TodoApp = () => {
+  
   return (
-    <React.Fragment>
+    <div>
       <Navbar />
+      <h1>Hello world</h1>
+      <p>I am in a react component</p>
       <Header />
       <TodosLogic />
-    </React.Fragment>
+      <Modal />
+    </div>
   )
 }
 
