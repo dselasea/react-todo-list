@@ -8,10 +8,11 @@ import Form from './Form'
 const TodoApp = () => {
   
   return (
-    <div>
-      <Navbar />
+    <div className="wrapper">
+      <div className="todos">
       <Header />
       <TodosLogic />
+      </div>
     </div>
   )
 }
