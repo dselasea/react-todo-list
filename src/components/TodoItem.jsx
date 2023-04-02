@@ -1,8 +1,14 @@
 import React from 'react'
 
-const TodoItem = ({itemProp}) => {
+const TodoItem = ({itemProp, handleChange}) => {
   return (
-    <li>{itemProp.title}</li>
+    <li>
+      <input 
+        type="checkbox" 
+        checked={itemProp.completed}
+        onChange={() => handleChange(itemProp.id)} />
+      {itemProp.title}
+    </li>
   )
 }
 
